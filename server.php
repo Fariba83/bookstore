@@ -1,11 +1,12 @@
 <?php
 session_start();
+require 'connect.php';
 $username="";
 $email="";
 $errors=array();
 
-// <!-- db connection -->
-$db = mysqli_connect('localhost', 'root', '', 'register');
+// // <!-- db connection -->
+// $db = mysqli_connect('localhost', 'root', '', 'register');
 
 // if the log in button is clicked
 if (isset($_POST['register'])){
