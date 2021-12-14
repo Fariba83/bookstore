@@ -14,6 +14,18 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
+<style>
+   .team{
+  width: 300px;
+  border: 3px solid #FF6582;
+  background-color:rgba(255, 178, 192, .4);
+  font-size:1.25rem;
+  font-weight:bold;
+  margin-top:40px;
+  margin-left:80px;
+
+}
+</style>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
@@ -35,7 +47,7 @@
               </li>
                         
               <li class="nav-item">
-                <a class="nav-link" href="ebook.php">DOWNLOAD E-BOOKS</a>
+                <a class="nav-link" href="signin.php">DOWNLOAD E-BOOKS</a>
               </li>
             </ul>
   
@@ -49,6 +61,12 @@
      <div class="home-content">
          <h1>E-BOOK ACADEMY</h1>
          <a href="signin.php">DOWNLOAD HERE</a>
+
+          <p class="team">Team Members:<br>
+            1. Estevan De Paula Martins<br> 
+            2. Fariba Mahboub Rezaei<br>
+            3. Amandeep Kaur<br>
+          </p>
 
      </div>
 

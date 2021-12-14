@@ -70,7 +70,7 @@
                       <div class="card-body p-1">
                          <!-- <h6 class="card-title"><?= $row['book_Name'] ?></h6> -->
                          <h6 class="card-title"><?= $row['book_pages'] ?></h6>
-                         <button type="submit" class="btn btn-secondary btn-sm">DOWNLOAD</button>
+                         <button type="button" class="btn btn-secondary btn-sm">Download</button>
                       </div>
                     </div>
                 </div>

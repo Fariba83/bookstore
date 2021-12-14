@@ -29,14 +29,14 @@
                 <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="signin">SIGN IN</a>
+                <a class="nav-link" href="signin.php">SIGN IN</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="signup">SIGN UP</a>
+                <a class="nav-link" href="signup.php">SIGN UP</a>
               </li>
                         
               <li class="nav-item">
-                <a class="nav-link" href="ebook.php">DOWNLOAD E-BOOKS</a>
+                <a class="nav-link" href="signin.php">DOWNLOAD E-BOOKS</a>
               </li>
             </ul>
   
