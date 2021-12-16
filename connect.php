@@ -1,6 +1,21 @@
 <?php
 
-function prepare_string($db, $string) {
+function newConnection($db = 'register') {
+    $server = '127.0.0.1:3306';
+    $user = 'root';
+    $password = '';
+
+    $connection = new mysqli($server, $user, $password, $db);
+
+    if($connection->connect_error) {
+        die('Error: ' . $connection->connect_error);
+    }
+    return $connection;
+}
+
+
+
+/* function prepare_string($db, $string) {
 		$string = mysqli_real_escape_string($db, trim($string));
 		return $string;
 	}
@@ -12,7 +27,7 @@ function prepare_string($db, $string) {
 
 	$db = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
 		OR die('Could not connect to MySQL: ' . mysqli_connect_error());
-	mysqli_set_charset($db, 'utf8');
+	mysqli_set_charset($db, 'utf8'); */
 
 
   ?>  
